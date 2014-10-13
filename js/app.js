@@ -21,6 +21,6 @@ $("#submitt").on('click',function(){
 	a=angular.injector(['myApp']);
 	b=a.get('MtpApiManager');
 	//b.invokeApi('account.checkUsername',{username:});
-	b.invokeApi('account.updateUsername',{username:$("#usernamet".val())});
+	b.invokeApi('account.updateUsername',{username:$("#usernamet").val()});
 });
 alert("runs");
